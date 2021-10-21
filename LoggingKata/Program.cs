@@ -114,10 +114,12 @@ namespace LoggingKata
 
             Console.WriteLine("-------------------");
             var milesDistance = distance * 0.000621371192;
-            Console.WriteLine(milesDistance);
+            Console.WriteLine("These are the 2 Taco Bell locations that are futher apart from each other:");
             Console.WriteLine($"First location: {tacoBellA.Name}, ({tacoBellA.Location.Latitude}, {tacoBellA.Location.Longitude})");
             Console.WriteLine($"Second location: {tacoBellB.Name}, ({tacoBellB.Location.Latitude}, {tacoBellB.Location.Longitude})");
-
+            Console.WriteLine("======================================================================================\n");
+            Console.WriteLine($"Total distance between the Tacos that are further apart from each other: {distance}");
+            Console.WriteLine($"Total distance between the Tacos that are further apart from each other, in miles: {milesDistance}");
 
 
 
